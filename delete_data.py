@@ -21,4 +21,4 @@ def delete_row():
                 for i in range(len(data))]
         with open(f'db/data_{nf}.txt', 'w', encoding='utf-8') as file:
             file.writelines(data)
-        print("Строка успешно удалена!")
+        print("\nСтрока успешно удалена!\n")

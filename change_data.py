@@ -17,4 +17,4 @@ def change_row():
     data[number_row - 1] = f'{number_row};{name};{surname};{birthdate};{town}\n'
     with open(f'db/data_{nf}.txt', 'w', encoding='utf-8') as file:
         file.writelines(data)
-    print("Данные успешно изменены!")
+    print("\nДанные успешно изменены!\n")
